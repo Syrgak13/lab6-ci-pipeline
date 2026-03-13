@@ -1,13 +1,9 @@
-def is_even(n: int) -> bool:
+# src/utils.py
+
+
+def is_even(n):
     return n % 2 == 0
 
-def is_positive(n: float) -> bool:
+
+def is_positive(n):
     return n > 0
-
-
-
-
-
-
-
-
